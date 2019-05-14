@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: log.infof
+# key: li
+# --
+log.Infof("${1:msg}"${2:, ${3:args}}) $0

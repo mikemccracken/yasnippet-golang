@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: iferror
+# key: ierr
+# contributor : mike
+# --
+if err := ${1:func}; err != nil{
+        ew$0
+}

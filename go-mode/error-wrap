@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: error-wrap
+# key: ew
+# contributor : mike
+# --
+return errors.Wrap(err, "failed to ${1:what}")
+$0
